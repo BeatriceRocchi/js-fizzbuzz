@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: teal;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px;
+  color: white;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-wrapper .card {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  font-size: .8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 250, 247);
+}

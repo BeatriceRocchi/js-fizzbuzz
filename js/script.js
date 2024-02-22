@@ -1,3 +1,5 @@
+const cardWrapper = document.querySelector(".card-wrapper");
+
 for (let i = 1; i <= 100; i++) {
   let text = i;
 
@@ -9,4 +11,8 @@ for (let i = 1; i <= 100; i++) {
     text = "Buzz";
   }
   console.log(text);
+
+  cardWrapper.innerHTML += `
+  <div class="card">${text}</div>
+  `;
 }
